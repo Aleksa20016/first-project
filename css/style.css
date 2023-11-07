@@ -127,3 +127,52 @@ padding: 5px 20px;
 min-width: 180px;
 color:darkblue
 }
+
+
+
+
+#contact-form input[type="text"]{
+height: 20px;
+width: 250px;
+padding: 5px;
+margin-bottom: 10px;
+border: #9b94ff;
+background-color: #3b34a3;
+}
+#contact-form input[type="email"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #9b94ff;
+    background-color: #3b34a3;
+}
+
+
+#contact-form input[type="reg-form"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #9b94ff;
+    background-color: #3b34a3;
+    }
+
+
+#contact-form input[type="submit"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #9b94ff;
+    background-color: #4677ff;
+    }
+
+    #contact-form input[type="submit"]:hover{
+        height: 20px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: #9b94ff;
+        background-color: #d66dff;
+        }

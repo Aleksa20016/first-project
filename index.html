@@ -22,7 +22,11 @@
             <ul>
                 <li><a href="#about">О нас</a></li>
                 <li><a href="#articles" >Мои статьи</a></li>
-            </ul>
+                <li><a href="#reg-form" >Обратная связь</a></li>
+
+
+
+ </ul>
         </nav>
     </header>
     <main>
@@ -48,6 +52,39 @@
             </ol>
         </section>
     </main>
+
+    <section id="contact-form">
+
+                   
+        <label for="name">Введите имя</label><br>
+        <input id=name name="name" type="text" placeholder="Имя" required><br>
+
+    <div class="form_item">
+        <label for="email">E-mail</label><br>
+        <input id="email" name="email" type="email" placeholder="E-mail"><br>
+    </div>
+
+    <div class="form_item">
+        <label for="reg-form">Тема</label><br>
+        <select name="reg-form" id="reg-form" type="reg-form">
+        <option value="1">Заказать услугу</option>
+        <option value="2">Оставить отзыв/замечание</option>
+        <option value="3">Предложить сотрудничество</option>
+        <option value="4">Другое</option>
+        </select>
+    </div>
+
+    <div  label for="textarea">Текст обращения</label><br>
+    <textarea id="textarea" rows="3"></textarea><br>
+</div>
+    <input type="submit" value="Создать"><br>
+
+   </section>
+
+
+
+
+
  <footer>
         <p>&copy; Шамгунова Алекса, 2023 г.</p>
         <p>Вы также можете найти меня <a target="_blank" href="https://vk.com/f1lower">здесь</a></p>
