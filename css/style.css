@@ -1,0 +1,129 @@
+*{margin: 0%;
+padding: 0;}
+html{
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+header{
+    background-color: rgb(181, 210, 255);
+    text-align: center;
+}
+main{
+    background-color: #8179f5;
+}
+footer{
+    background-color: rgb(160, 190, 255);
+    padding: 10px 50px;
+}
+
+#about{
+    background-color: rgb(153, 194, 255);
+    text-align: center;
+    padding: 10px 50px;
+    font-style: italic; 
+    border: 5px solid rgb(175, 146, 255);
+}
+#articles{
+    background-color: rgb(163, 157, 255);
+    text-align: center;
+    padding: 10px 50px;
+}
+
+#content {
+    background-color: rgb(54, 130, 201);
+    text-align: center;
+    padding: 10px 50px
+    
+}
+    
+p{
+    text-align: justify;
+    font-size: 1rem;
+} 
+h1{font-size: 2rem;}  
+
+h2{
+    font-size: 1.5rem;
+}
+
+
+ol{
+    text-align: left;
+    padding-left: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+#articles a:link{
+    color:red
+}
+#articles a:hover{
+    color:rgb(74, 32, 187)
+}
+#articles a:focus{
+    color: blueviolet;
+}
+#articles a:visited{
+    color: rgb(93, 62, 165);
+}
+#articles  a:active{
+    color: coral;
+}
+.menu-articles li{
+    background-color: rgb(183, 57, 233);
+}
+
+.menu-articles li:nth-child(2n) {
+    background-color: rgb(247, 158, 255);
+}
+p:lang(ru){
+    text-decoration: underline;
+}
+p:lang(en){
+    text-transform: uppercase;
+}
+
+#about h2::after {
+    content: "new!";
+    font-size: 10px;
+    color: darkorchid;
+    margin-left: 10px;}
+
+    #about q::after{
+        content: "Это интересно!";
+        font-size: 15px;
+        color: rgb(255, 56, 89);
+        margin-left: 10px;}
+
+.bill-table {
+    border: 5px red solid;
+    border-collapse: collapse;
+
+}
+.bill-table td,
+.bill-table th {
+    border-bottom: 1px black solid;
+    padding: 5px 20px;
+}
+
+.bill-table tbody tr:nth-child(odd) {
+color: cornflowerblue;
+}
+.bill-table td:nth-child(3){
+    text-decoration: underline;
+}
+
+
+#reg-form input [type=text],
+#reg-form input [type=password] {
+    border: 1px solid rgb(163, 157, 255) ;
+background: #5448ff;
+border-radius: 5px;
+padding: 5px 20px;
+min-width: 180px;
+color:darkblue
+}
